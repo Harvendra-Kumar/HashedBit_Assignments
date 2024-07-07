@@ -1,6 +1,5 @@
-// src/IplPointsTable.js
 import React, { useEffect, useState } from 'react';
-import './IplPointsTable.css'; // Import the CSS file
+import './IplPointsTable.css';
 
 const IplPointsTable = () => {
   const [teams, setTeams] = useState([]);
